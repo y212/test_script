@@ -1,5 +1,5 @@
 import unittest
-import two
+from etl.src1 import two
 
 
 class Testing(unittest.TestCase):
