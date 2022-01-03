@@ -1,5 +1,11 @@
+# import sys
+# from os import path, read
+# from pathlib import Path
+# p = path.join(str(Path(__file__).resolve().parents[1]))
+# sys.path.insert(0, p)
+
 import unittest
-import one
+from etl.src import one
 
 
 class Testing(unittest.TestCase):
