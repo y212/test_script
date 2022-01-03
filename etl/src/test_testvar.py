@@ -1,5 +1,5 @@
 import unittest
-import testvar
+import etl.src as testvar
 
 
 class Testing(unittest.TestCase):
