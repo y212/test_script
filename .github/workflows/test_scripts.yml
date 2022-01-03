@@ -30,4 +30,4 @@ jobs:
         run: echo Hello, world!
 
       - name: Run tests with unittest
-        run: pytest
+        run: run-unittest
