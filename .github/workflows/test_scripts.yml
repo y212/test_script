@@ -29,5 +29,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
-      - name: Run tests with unittest
-        run: run-unittest
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install -r requirements.txt
+
+      # - name: Run tests with unittest
+      #   run: run-unittest
