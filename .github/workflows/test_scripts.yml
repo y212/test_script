@@ -34,11 +34,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests with unittest
-        run: python -m unittest etl.src.test_one.py
+      # - name: Run tests with unittest
+      #   run: python -m unittest etl.src.test_one.py
+
+      # - name: Run tests with unittest
+      #   run: python -m unittest etl.src.test_testvar.py
 
       - name: Run tests with unittest
-        run: python -m unittest etl.src.test_testvar.py
-
-      - name: Run tests with unittest
-        run: python -m unittest etl.src1.test_two.py
+        run: python -m unittest etl/src1/test_two.py
