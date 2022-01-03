@@ -5,7 +5,8 @@
 # sys.path.insert(0, p)
 
 import unittest
-from etl.src import one
+from etl.src import one,test_testvar,testvar
+from etl.src1 import two,test_two
 
 
 class Testing(unittest.TestCase):
@@ -18,3 +19,4 @@ class Testing(unittest.TestCase):
 
 if __name__=='__main__':
     unittest.main()
+    

@@ -35,10 +35,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests with unittest
-        run: python -m unittest etl/src/test_one.py
+        run: python -m unittest etl/src/test_one.py,etl/src/test_testvar.py,etl/src1/test_two.py
 
-      - name: Run tests with unittest
-        run: python -m unittest etl/src/test_testvar.py
+      # - name: Run tests with unittest
+      #   run: python -m unittest etl/src/test_testvar.py
 
-      - name: Run tests with unittest
-        run: python -m unittest etl/src1/test_two.py
+      # - name: Run tests with unittest
+      #   run: python -m unittest etl/src1/test_two.py
