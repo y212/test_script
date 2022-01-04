@@ -1,9 +1,8 @@
 name: etl-tests
 
 on:
-  push:
-    paths:
-      - 'src1'
+  push
+   
 
   workflow_dispatch:
 
