@@ -5,6 +5,7 @@ from etl.src.testvar import main
 class Testing(unittest.TestCase):
     def test_test_var(self):
         x = main(['--name', 'bhanu_new', '--age', '21'])
+        print('hi i am testing testvar')
         self.assertEqual(x, 'hellobhanu_new21')
 
 
