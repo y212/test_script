@@ -2,7 +2,8 @@ name: etl-tests
 
 on:
   push:
-    branches: [ b1 ]
+    paths:
+      - 'src1'
 
   workflow_dispatch:
 
