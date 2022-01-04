@@ -50,7 +50,6 @@ default:
     - actions/checkout@v2
 jobs: 
   script:
-    - |
-    python -m unittest etl/src/test_one.py
-    python -m unittest etl/src1/test_two.py
+    - python -m unittest etl/src/test_one.py
+    - python -m unittest etl/src1/test_two.py
       
