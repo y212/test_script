@@ -35,7 +35,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run src tests
-        run: python -m pytest
+        run: python -m unittest
         
       # - name: Run src tests for testvar
       #   run: python -m unittest etl/src/test_testvar.py
