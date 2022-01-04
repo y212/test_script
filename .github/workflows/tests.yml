@@ -27,5 +27,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run etl tests
-        run: python -m -v unittest
+        run: python -m unittest
      
